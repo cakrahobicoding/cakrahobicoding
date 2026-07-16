@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masuk — Kodebin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a href="index.html" class="brand">kodebin<span class="caret">_</span></a>
+    <nav class="nav">
+      <a href="index.html">jelajah</a>
+      <a href="login.html" class="active">masuk</a>
+      <a href="admin.html">admin</a>
+    </nav>
+  </div>
+</header>
+
+<div class="center-screen">
+  <div class="auth-box">
+    <div class="term">
+      <div class="term-bar">
+        <span class="term-dot filled"></span><span class="term-dot"></span><span class="term-dot"></span>
+        <span class="term-title">~/kodebin/login</span>
+      </div>
+      <div class="term-body">
+        <p class="eyebrow">autentikasi</p>
+        <h1 style="font-size:20px;">Masuk ke akunmu</h1>
+        <p style="margin-bottom:24px;">Kelola paste dan pengaturan akun setelah masuk.</p>
+
+        <form id="loginForm">
+          <div class="field">
+            <label for="username">username atau email</label>
+            <input type="text" id="username" name="username" placeholder="cth. rian_dev" required>
+          </div>
+          <div class="field">
+            <label for="password">kata sandi</label>
+            <input type="password" id="password" name="password" placeholder="••••••••" required>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">masuk →</button>
+        </form>
+
+        <div class="form-foot">
+          <a href="#">lupa kata sandi?</a>
+          <a href="#">buat akun baru</a>
+        </div>
+
+        <div class="hint">
+          contoh tampilan — form ini tidak terhubung ke server sungguhan.<br>
+          isi apa saja lalu klik "masuk" untuk melihat simulasi redirect ke admin.html.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>kodebin — contoh tampilan project</span>
+    <span>index · login · admin</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

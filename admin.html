@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Kodebin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a href="index.html" class="brand">kodebin<span class="caret">_</span></a>
+    <nav class="nav">
+      <a href="index.html">jelajah</a>
+      <a href="login.html">masuk</a>
+      <a href="admin.html" class="active">admin</a>
+    </nav>
+  </div>
+</header>
+
+<div class="admin-shell">
+
+  <aside class="side">
+    <p class="side-title">menu</p>
+    <a href="#" class="active">⌂ ringkasan</a>
+    <a href="#">▤ semua paste</a>
+    <a href="#">☺ pengguna</a>
+    <a href="#">⚑ laporan</a>
+    <a href="#">⚙ pengaturan</a>
+    <p class="side-title" style="margin-top:22px;">akun</p>
+    <a href="login.html">→ keluar</a>
+  </aside>
+
+  <main class="admin-main">
+    <p class="eyebrow">panel admin</p>
+    <h1 style="font-size:22px;">Ringkasan Kodebin</h1>
+    <p style="margin-bottom:24px;">Pantau aktivitas paste dan pengguna dari satu tempat.</p>
+
+    <div class="stat-row">
+      <div class="stat">
+        <div class="num">1.284</div>
+        <div class="label">total paste</div>
+      </div>
+      <div class="stat">
+        <div class="num">312</div>
+        <div class="label">pengguna aktif</div>
+      </div>
+      <div class="stat">
+        <div class="num">7</div>
+        <div class="label">menunggu tinjauan</div>
+      </div>
+    </div>
+
+    <div class="term">
+      <div class="term-bar">
+        <span class="term-dot filled"></span><span class="term-dot"></span><span class="term-dot"></span>
+        <span class="term-title">paste terbaru</span>
+      </div>
+      <div class="term-body" style="padding:0;">
+        <table>
+          <thead>
+            <tr>
+              <th>judul</th>
+              <th>pemilik</th>
+              <th>bahasa</th>
+              <th>status</th>
+              <th>dibuat</th>
+              <th>aksi</th>
+            </tr>
+          </thead>
+          <tbody id="pasteTable">
+            <tr>
+              <td class="mono-strong">backup-harian.sh</td>
+              <td>rian_dev</td>
+              <td>bash</td>
+              <td><span class="status-dot"></span>publik</td>
+              <td>2 jam lalu</td>
+              <td class="row-actions">
+                <button data-action="lihat">lihat</button>
+                <button data-action="hapus">hapus</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="mono-strong">scrape_harga.py</td>
+              <td>nadia.k</td>
+              <td>python</td>
+              <td><span class="status-dot"></span>publik</td>
+              <td>5 jam lalu</td>
+              <td class="row-actions">
+                <button data-action="lihat">lihat</button>
+                <button data-action="hapus">hapus</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="mono-strong">kredensial_lama.txt</td>
+              <td>anon_92</td>
+              <td>config</td>
+              <td><span class="status-dot off"></span>privat</td>
+              <td>1 hari lalu</td>
+              <td class="row-actions">
+                <button data-action="lihat">lihat</button>
+                <button data-action="hapus">hapus</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="mono-strong">debounce.js</td>
+              <td>bagas.p</td>
+              <td>javascript</td>
+              <td><span class="status-dot"></span>publik</td>
+              <td>kemarin</td>
+              <td class="row-actions">
+                <button data-action="lihat">lihat</button>
+                <button data-action="hapus">hapus</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="hint" style="margin-top:20px;">
+      contoh tampilan admin — tombol "lihat" dan "hapus" hanya simulasi, belum terhubung ke data sungguhan.
+    </div>
+  </main>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>kodebin — contoh tampilan project</span>
+    <span>index · login · admin</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

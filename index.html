@@ -12,7 +12,7 @@
   <div class="bg-video" style="background-image:url('media/706d4675-33e3-42e8-b90c-4994a46e9ca1.mp4')"></div>
 
   <!-- overlay klik untuk masuk (biar video/audio boleh autoplay) -->
-  <div class="enter-screen" id="enterScreen">
+  <div class="enter-screen" id="enterScreen" onclick="this.classList.add('hidden'); setTimeout(() => this.remove(), 500);">
     <div class="enter-text">click to enter...</div>
   </div>
 

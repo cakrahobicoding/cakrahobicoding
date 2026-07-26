@@ -53,7 +53,7 @@ Clone repository ini ke VPS kamu:
 
 ```bash
 git clone https://github.com/cakrahobicoding/cakrahobicoding.git
-cd ranzx
+cd cakrahobicoding
 chmod +x ranzx.sh
 ```
 

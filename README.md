@@ -114,9 +114,9 @@ Distributed under the MIT License.
 
 **Nama Kamu**
 
-- GitHub: [@USERNAME](https://github.com/USERNAME)
-- Instagram: [@username](https://instagram.com/username)
-- Telegram: [@username](https://t.me/username)
+- GitHub: [@cakrahobicoding](https://github.com/cakrahobicoding)
+- Instagram: [@its_mecakra](https://instagram.com/its_mecakra)
+- Telegram: [@rezegrl](https://t.me/rezegrl)
 
 ---
 

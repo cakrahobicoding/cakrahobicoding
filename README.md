@@ -52,7 +52,7 @@ Cocok buat kamu yang baru mulai kelola VPS dan males ngetik command panjang berk
 Clone repository ini ke VPS kamu:
 
 ```bash
-git clone https://github.com/cakrahobicoding/ranzx.git
+git clone https://github.com/cakrahobicoding/cakrahobicoding.git
 cd ranzx
 chmod +x ranzx.sh
 ```
